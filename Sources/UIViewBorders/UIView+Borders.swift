@@ -9,7 +9,7 @@ public struct Positions: OptionSet {
     public static let right = Positions(rawValue: 1 << 3)
 }
 
-extension UIView {
+public extension UIView {
     public func addBorderViews(positions: Positions, color: UIColor = .black, width: CGFloat = 1.0) {
         if positions.contains(.top) {
             let borderView = UIView()

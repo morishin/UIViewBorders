@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIViewBorders"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "UIView extension for drawing borders"
   s.homepage     = "https://github.com/morishin/UIViewBorders"
   s.author       = { "morishin" => "sntr92@gmail.com" }
