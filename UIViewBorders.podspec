@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/morishin/UIViewBorders"
   s.author       = { "morishin" => "sntr92@gmail.com" }
   s.platform     = :ios
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "12.0"
+  s.swift_versions = ["5.0"]
   s.source       = { :git => "https://github.com/morishin/UIViewBorders.git", :tag => "#{s.version}" }
   s.source_files = "Sources/**/*.{swift,h,m}"
   s.license = {

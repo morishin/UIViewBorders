@@ -10,7 +10,7 @@ public struct Positions: OptionSet {
 }
 
 public extension UIView {
-    public func addBorderViews(positions: Positions, color: UIColor = .black, width: CGFloat = 1.0) {
+    func addBorderViews(positions: Positions, color: UIColor = .black, width: CGFloat = 1.0) {
         if positions.contains(.top) {
             let borderView = UIView()
             borderView.translatesAutoresizingMaskIntoConstraints = false
